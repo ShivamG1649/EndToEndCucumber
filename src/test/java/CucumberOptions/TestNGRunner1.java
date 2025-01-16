@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.DataProvider;
 
 @CucumberOptions(features = "src/test/java/features",
-glue ="stepDefinitions",monochrome = true,tags = "@Smoke or @Regression or @Sanity",
+glue ="stepDefinitions",monochrome = true,tags = "@VerifyLogin",
 
 plugin = {"html:target/cucumber.html","json:target/cucumber.json",
 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})

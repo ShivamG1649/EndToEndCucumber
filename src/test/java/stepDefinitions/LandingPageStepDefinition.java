@@ -58,5 +58,28 @@ public class LandingPageStepDefinition {
         testContext.driver.quit();
     }
 
+    @Then("User verify that login text is displayed on the landing page")
+    public void verifyLoginPageText()
+    {
+        // to verify the text login with expected text
+
+        // Expected / Actual
+
+        // Expected = Actual -> Pass
+
+        // Assertion is required
+
+        this.lp=testContext.pageObjectManager.getLandingPage();
+
+        String ExpectedText="Login";
+
+        String ActualText= lp.getLoginText();
+
+        Assert.assertEquals(ActualText,ExpectedText);
+
+    }
+
+
+
 
 }

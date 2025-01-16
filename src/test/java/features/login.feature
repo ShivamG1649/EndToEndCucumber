@@ -12,3 +12,10 @@ Feature: Application login
   Scenario: verify the title of login page
     Given User is on the landing page
     Then verify the title of login page should contain "OrangeHRM"
+
+    @VerifyLogin
+   Scenario: verify that "login" text on the login page
+#      When enter valid userName
+      Given User is on the landing page
+      When  User verify that login text is displayed on the landing page
+

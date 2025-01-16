@@ -14,11 +14,20 @@ import java.util.Properties;
 public class BaseTest {
   public WebDriver driver;
     public WebDriver webDriverManager() throws IOException {
+
         FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"//src//test//resources//qa.properties");
+
+        //E:\java\WebAutomation\SeleniumProjects\Cucumber_based\End2End_Automation_Cucumber\src\test\resources\qa.properties
+
         Properties prop = new Properties();
         prop.load(fis);
+        String userName=prop.getProperty("userName");
+
         String qaUrl=prop.getProperty("qaApplicationUrl");
-        if(driver==null) {
+
+
+        if(driver==null)
+        {
             if(prop.getProperty("browser").equalsIgnoreCase("chrome")) {
                 WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver();
