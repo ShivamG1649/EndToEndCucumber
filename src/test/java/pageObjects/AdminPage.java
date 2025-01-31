@@ -2,10 +2,12 @@ package pageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class AdminPage {
+public class AdminPage
+{
     public WebDriver driver;
     //Create a constructor
-   public AdminPage(WebDriver driver){
+    public AdminPage(WebDriver driver)
+    {
     this.driver =driver;
    }
     By AdminPageLink =By.xpath("//a[@class='oxd-main-menu-item active']");

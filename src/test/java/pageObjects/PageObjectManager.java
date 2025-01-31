@@ -7,6 +7,9 @@ import org.openqa.selenium.WebDriver;
 public class PageObjectManager {
     public LandingPage landingPage;
     public AdminPage adminPage;
+    public HomePage homePage;
+//    int a =10;
+    public PerformancePage performancePage;
     public DashBoardPage dashBoardPage;
     public LeavePage leavePage;
     public WebDriver driver;
@@ -20,8 +23,15 @@ public class PageObjectManager {
         return landingPage;
     }
 
-    public AdminPage getAdminPage(){
-       return adminPage = new AdminPage(driver);
+    public AdminPage getAdminPage()
+    {
+        adminPage  = new AdminPage(driver);
+        return adminPage ;
+    }
+    public PerformancePage getPerformancePagePage()
+    {
+        performancePage  = new PerformancePage(driver);
+        return performancePage ;
     }
 
     public DashBoardPage getDashBoardPage(){
@@ -32,4 +42,7 @@ public class PageObjectManager {
         return leavePage = new LeavePage(driver);
     }
 
+    public HomePage getHomePage(){
+        return homePage = new HomePage(driver);
+    }
 }

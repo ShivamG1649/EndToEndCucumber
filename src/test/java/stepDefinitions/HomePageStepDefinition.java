@@ -41,7 +41,7 @@ public class HomePageStepDefinition {
             String xpath = "//div[@title ='i']";
             WebElement element = testContext.driver.findElement(By.xpath("//div[@title ='" + i + "']"));
             boolean status=element.isDisplayed();
-            Assert.assertTrue(status);
+            Assert.assertFalse(status);
         }
 
     }

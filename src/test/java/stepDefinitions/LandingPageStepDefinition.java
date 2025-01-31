@@ -47,7 +47,7 @@ public class LandingPageStepDefinition {
 //        dp=new DashBoardPage(testContext.driver);
         this.dp=testContext.pageObjectManager.getDashBoardPage();
         boolean HRMLogoStatus=dp.verifyHRLLogo();
-        Assert.assertTrue(HRMLogoStatus);
+        Assert.assertFalse(HRMLogoStatus);
 //        testContext.driver.quit();
     }
     @Then("verify the title of login page should contain {string}")
