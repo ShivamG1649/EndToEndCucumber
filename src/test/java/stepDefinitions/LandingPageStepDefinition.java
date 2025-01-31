@@ -25,17 +25,17 @@ public class LandingPageStepDefinition {
     public void user_is_on_the_landing_page() throws InterruptedException {
 
     }
-    @When("enter valid userName")
-    public void enter_valid_user_name() {
+    @When("enter valid userName {string}")
+    public void enter_valid_user_name(String uName) {
       //  this.lp = new LandingPage(testContext.driver);
       //  pageObjectManager=new PageObjectManager(testContext.driver);
       //  this.lp=pageObjectManager.getLandingPage();
         this.lp=testContext.pageObjectManager.getLandingPage();
-        lp.enterUserName("Admin");
+        lp.enterUserName(uName);
     }
-    @When("enter valid password")
-    public void enter_valid_password() {
-        lp.enterPassword("admin123");
+    @When("enter valid password {string}")
+    public void enter_valid_password(String password) {
+        lp.enterPassword(password);
     }
     @When("Click on signIn button")
     public void click_on_sign_in_button() {

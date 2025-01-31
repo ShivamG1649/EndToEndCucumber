@@ -1,8 +1,8 @@
 Feature: Verify leave page testCases
 Background:
   Given User is on the landing page
-  When enter valid userName
-  And enter valid password
+#  When enter valid userName
+#  And enter valid password
   And Click on signIn button
 
   @Sanity

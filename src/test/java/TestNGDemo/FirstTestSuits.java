@@ -25,7 +25,7 @@ public class FirstTestSuits {
     public  void test3(){
         System.out.println("I am in test3 block");
     }
-    @Test
+    @Test(groups = {"chrome","Sanity"})
     public  void testCase4(){
         System.out.println("I am in test Case4 block");
     }

@@ -4,30 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="523a7363-ce3f-429e-8230-0337706c5e40" name="Changes" comment="Login page test case">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaConcepts/ExceptionHandlling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaConcepts/ExplicitCasting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaConcepts/KeyWordsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaConcepts/ReferenceTypesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaConcepts/TypeCastingDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumBasics/AlertHandlingDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumBasics/ScreenShotDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumBasics/ScrollDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNGDemo/FirstTestSuits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNGDemo/SecondTestSuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNGDemo/ThirdSuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/performance.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/PerformancePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/PerformacePageStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/testng2.xml" afterDir="false" />
+    <list default="true" id="523a7363-ce3f-429e-8230-0337706c5e40" name="Changes" comment="TestNG">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNGDemo/PriprityDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberOptions/TestNGRunner1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberOptions/TestNGRunner1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/AdminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/AdminPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/PageObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/PageObjectManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNGDemo/FirstTestSuits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNGDemo/FirstTestSuits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNGDemo/SecondTestSuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNGDemo/SecondTestSuit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/adminPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/adminPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/leavePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/leavePage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/performance.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/performance.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/qa.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/qa.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +71,7 @@
     "Maven.shutterlyV1 [verify].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.AdminTestNGRunner.executor": "Run",
+    "TestNG.AdminTestNGRunner.executor": "Debug",
     "TestNG.E:/java/WebAutomation/SeleniumProjects/Cucumber_based/End2End_Automation_Cucumber/src/test/testng.xml.executor": "Run",
     "TestNG.E:/java/WebAutomation/SeleniumProjects/Cucumber_based/End2End_Automation_Cucumber/src/test/testng2.xml.executor": "Run",
     "TestNG.FirstTestCase.executor": "Run",
@@ -94,6 +80,9 @@
     "TestNG.LandingPageStepDefinition.verifyThatUserLoggedIn.executor": "Run",
     "TestNG.LeaveTestNGRunner.executor": "Run",
     "TestNG.LoginTestNGRunner.executor": "Run",
+    "TestNG.PriprityDemo.TC2.executor": "Run",
+    "TestNG.PriprityDemo.executor": "Debug",
+    "TestNG.SecondTestSuit.executor": "Run",
     "TestNG.TestNGRunner.executor": "Run",
     "TestNG.TestNGRunner1.executor": "Run",
     "kotlin-language-version-configured": "true",
@@ -121,11 +110,38 @@
       <recent name="pageObjects" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.E:/java/WebAutomation/SeleniumProjects/Cucumber_based/End2End_Automation_Cucumber/src/test/testng.xml">
-    <configuration name="E:/java/WebAutomation/SeleniumProjects/Cucumber_based/End2End_Automation_Cucumber/src/test/testng2.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AdminTestNGRunner">
+    <configuration name="Scenario: Verify system user search for Admin and  ESS UserRoles" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/adminPage.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="shutterlyV1" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/testng2.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="NAME_FILTER" value="^Verify system user search for Admin and  ESS UserRoles$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify system user search for Admin and  ESS UserRoles$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify system user search for Admin and  ESS UserRoles" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminTestNGRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shutterlyV1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CucumberOptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CucumberOptions" />
+      <option name="MAIN_CLASS_NAME" value="CucumberOptions.AdminTestNGRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -142,7 +158,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTestSuits" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PriprityDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shutterlyV1" />
       <extension name="coverage">
         <pattern>
@@ -151,7 +167,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestNGDemo" />
-      <option name="MAIN_CLASS_NAME" value="TestNGDemo.FirstTestSuits" />
+      <option name="MAIN_CLASS_NAME" value="TestNGDemo.PriprityDemo" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -159,7 +175,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTestSuits.testCase4" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PriprityDemo.TC2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shutterlyV1" />
       <extension name="coverage">
         <pattern>
@@ -168,8 +184,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestNGDemo" />
-      <option name="MAIN_CLASS_NAME" value="TestNGDemo.FirstTestSuits" />
-      <option name="METHOD_NAME" value="testCase4" />
+      <option name="MAIN_CLASS_NAME" value="TestNGDemo.PriprityDemo" />
+      <option name="METHOD_NAME" value="TC2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -177,37 +193,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGRunner1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shutterlyV1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CucumberOptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CucumberOptions" />
-      <option name="MAIN_CLASS_NAME" value="CucumberOptions.TestNGRunner1" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Scenario: Verify system user search for Admin and  ESS UserRoles" />
+      <item itemvalue="TestNG.AdminTestNGRunner" />
       <item itemvalue="TestNG.E:/java/WebAutomation/SeleniumProjects/Cucumber_based/End2End_Automation_Cucumber/src/test/testng.xml" />
-      <item itemvalue="TestNG.E:/java/WebAutomation/SeleniumProjects/Cucumber_based/End2End_Automation_Cucumber/src/test/testng2.xml" />
-      <item itemvalue="TestNG.FirstTestSuits" />
-      <item itemvalue="TestNG.FirstTestSuits.testCase4" />
-      <item itemvalue="TestNG.TestNGRunner1" />
+      <item itemvalue="TestNG.PriprityDemo" />
+      <item itemvalue="TestNG.PriprityDemo.TC2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AdminTestNGRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Verify system user search for Admin and  ESS UserRoles" />
+        <item itemvalue="TestNG.PriprityDemo" />
+        <item itemvalue="TestNG.PriprityDemo.TC2" />
         <item itemvalue="TestNG.E:/java/WebAutomation/SeleniumProjects/Cucumber_based/End2End_Automation_Cucumber/src/test/testng.xml" />
-        <item itemvalue="TestNG.E:/java/WebAutomation/SeleniumProjects/Cucumber_based/End2End_Automation_Cucumber/src/test/testng2.xml" />
-        <item itemvalue="TestNG.TestNGRunner1" />
-        <item itemvalue="TestNG.FirstTestSuits" />
-        <item itemvalue="TestNG.FirstTestSuits.testCase4" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736997113069</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="TestNG">
+      <option name="closed" value="true" />
+      <created>1738287380541</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738287380541</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,7 +281,8 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="Login page test case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login page test case" />
+    <MESSAGE value="TestNG" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNG" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -283,16 +291,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java</url>
           <line>77</line>
           <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/utils/BaseTest.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/utils/BaseTest.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/utils/BaseTest.java</url>
@@ -305,39 +303,9 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/utils/BaseTest.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/utils/BaseTest.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/utils/BaseTest.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/PerformacePageStepDefinition.java</url>
           <line>30</line>
           <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/PerformacePageStepDefinition.java</url>
@@ -345,14 +313,19 @@
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/SeleniumBasics/ScrollDemo.java</url>
           <line>23</line>
           <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/AdminPageStepDefinition.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

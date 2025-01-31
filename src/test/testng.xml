@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="First Test Suit" parallel="tests" thread-count="3">
+
+    <groups>
+        <run>
+            <include name="Sanity"/>
+<!--            <include name="fireFox"/>-->
+        </run>
+    </groups>
+
     <test name="Cucumber Tests">
         <classes>
             <class name="TestNGDemo.FirstTestSuits"/>
