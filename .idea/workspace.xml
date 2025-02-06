@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="523a7363-ce3f-429e-8230-0337706c5e40" name="Changes" comment="Test Ng">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNGDemo/CalDemo.java" afterDir="false" />
+    <list default="true" id="523a7363-ce3f-429e-8230-0337706c5e40" name="Changes" comment="DatePicker">
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaConcepts/ExcelReading.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +40,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AB.executor": "Debug",
     "Application.AlertHandlingDemo.executor": "Debug",
     "Application.BrowserMethods.executor": "Run",
     "Application.ConditionalMethods.executor": "Run",
+    "Application.ExcelReading.executor": "Debug",
     "Application.ExceptionHandlling.executor": "Run",
     "Application.ExplicitCasting.executor": "Run",
     "Application.KeyWordsDemo.executor": "Run",
@@ -95,6 +98,7 @@
       <recent name="E:\java\WebAutomation\SeleniumProjects\Cucumber_based\End2End_Automation_Cucumber\src\test\java\CucumberOptions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\java\WebAutomation\SeleniumProjects\Cucumber_based\End2End_Automation_Cucumber\src\test\resources\Data" />
       <recent name="E:\java\WebAutomation\SeleniumProjects\Cucumber_based\shutterfly.com\src\test\java\features" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -103,7 +107,20 @@
       <recent name="pageObjects" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CalDemo.DatePicker">
+  <component name="RunManager" selected="Application.ExcelReading">
+    <configuration name="ExcelReading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaConcepts.ExcelReading" />
+      <module name="shutterlyV1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaConcepts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Verify system user search for Admin and  ESS UserRoles" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/adminPage.feature" />
@@ -176,38 +193,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriprityDemo.TC2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shutterlyV1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestNGDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestNGDemo" />
-      <option name="MAIN_CLASS_NAME" value="TestNGDemo.PriprityDemo" />
-      <option name="METHOD_NAME" value="TC2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.ExcelReading" />
       <item itemvalue="Cucumber Java.Scenario: Verify system user search for Admin and  ESS UserRoles" />
       <item itemvalue="TestNG.CalDemo.DatePicker" />
       <item itemvalue="TestNG.AdminTestNGRunner" />
       <item itemvalue="TestNG.PriprityDemo" />
-      <item itemvalue="TestNG.PriprityDemo.TC2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExcelReading" />
         <item itemvalue="TestNG.CalDemo.DatePicker" />
         <item itemvalue="TestNG.AdminTestNGRunner" />
         <item itemvalue="Cucumber Java.Scenario: Verify system user search for Admin and  ESS UserRoles" />
         <item itemvalue="TestNG.PriprityDemo" />
-        <item itemvalue="TestNG.PriprityDemo.TC2" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738292169904</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="DatePicker">
+      <option name="closed" value="true" />
+      <created>1738377771159</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738377771159</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,7 +299,8 @@
     <MESSAGE value="Login page test case" />
     <MESSAGE value="TestNG" />
     <MESSAGE value="Test Ng" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Ng" />
+    <MESSAGE value="DatePicker" />
+    <option name="LAST_COMMIT_MESSAGE" value="DatePicker" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -351,6 +359,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/TestNGDemo/CalDemo.java</url>
           <line>51</line>
           <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/JavaConcepts/ExcelReading.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
