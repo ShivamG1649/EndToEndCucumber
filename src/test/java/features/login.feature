@@ -1,7 +1,7 @@
-Feature: Application login
+Feature: Application login test case
 
   @Smoke
-  Scenario: login in application
+  Scenario: login in application with valid credentials
     Given User is on the landing page
 #    When enter valid userName
 #    And enter valid password

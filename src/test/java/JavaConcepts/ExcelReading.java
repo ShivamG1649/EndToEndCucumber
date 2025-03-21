@@ -27,7 +27,9 @@ public class ExcelReading {
 //        WebDriver driver = new ChromeDriver();
 
         // Read data from Excel
-        FileInputStream fis = new FileInputStream(new File("src\\test\\resources\\Data\\Sheet1.xlsx"));
+
+        FileInputStream
+                fis = new FileInputStream(new File("src\\test\\resources\\Data\\Sheet1.xlsx"));
         Workbook workbook = WorkbookFactory.create(fis);
         Sheet sheet1 = workbook.getSheetAt(0);
         Row row = sheet1.getRow(1); // Read second row (index starts from 0)

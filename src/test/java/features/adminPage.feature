@@ -7,6 +7,7 @@ Feature: Verify admin page functionality
     And Click on signIn button
     And Click on admin link on left Side panel
     And Select Role "<UserRole>"
+    # this is comments will not be executed by the compiler , Given , When , Then , Feature , Scenario:  And
 #    And Click on Search button
 
     Examples:
