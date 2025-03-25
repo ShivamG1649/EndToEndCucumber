@@ -12,10 +12,10 @@ Feature: login functionality
 
 
     # This is a nagative testing ( we are using invalid password here)
-#  @DemoFeatureTC2 @Regression
-#  Scenario: verify that user should see the error messages when it enter invalid credentials
-#    Given I open application url
-#    When  I  user enters valid username
-#    And   I user enters inValid password
-#    And   I  user click on login button
-#    Then  verify the error message on the login page
+  @DemoFeatureTC2 @Regression
+  Scenario: verify that user should see the error messages when it enter invalid credentials
+    Given I open application url
+    When  I  user enters valid username
+    And   I user enters inValid password
+    And   I  user click on login button
+    Then  verify the error message on the login page

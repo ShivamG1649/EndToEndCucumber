@@ -11,13 +11,15 @@ public class LandingPage {
    public LandingPage(WebDriver driver){
     this.driver =driver;
    }
-
     By userName = By.xpath("//input[@placeholder='Username']"); // Page Objects
     By password = By.xpath("//input[@placeholder='Password']");
     By loginBtn=By.xpath("//button[@type='submit']");
     By loginText=By.xpath("//h5[@class='oxd-text oxd-text--h5 orangehrm-login-title']");
+    By forgetPassworLink =By.xpath("//p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header']");
+
+
     public void enterUserName(String name){
-         driver.findElement(userName).sendKeys(name);
+        driver.findElement(userName).sendKeys(name);
     }
 
     public void enterPassword(String pwd){
@@ -30,9 +32,10 @@ public class LandingPage {
 
     public String getLoginText()
     {
-       String loginText1= driver.findElement(loginText).getText();
-       return loginText1;
+        String loginText1= driver.findElement(loginText).getText();
+        return loginText1;
     }
+
 
     // Assertion we will be calling this one
 

@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="523a7363-ce3f-429e-8230-0337706c5e40" name="Changes" comment="Excel Reader">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CucumberOptions/LoginDemoTestNGRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNGDemo/RestAssuredAPITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/logindemo.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/loginDemoStepDefinition.java" afterDir="false" />
+    <list default="true" id="523a7363-ce3f-429e-8230-0337706c5e40" name="Changes" comment="Cucumber learning">
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/logindemo2.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaConcepts/ExcelReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaConcepts/ExcelReading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/adminPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/adminPage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberOptions/LoginDemoTestNGRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberOptions/LoginDemoTestNGRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/logindemo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/logindemo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/loginDemoStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/loginDemoStepDefinition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +82,11 @@
     "TestNG.FirstTestCase.testCase4.executor": "Run",
     "TestNG.LandingPageStepDefinition.verifyThatUserLoggedIn.executor": "Run",
     "TestNG.LeaveTestNGRunner.executor": "Run",
+    "TestNG.LoginDemoTestNGRunner (1).executor": "Run",
+    "TestNG.LoginDemoTestNGRunner (2).executor": "Run",
+    "TestNG.LoginDemoTestNGRunner (3).executor": "Run",
+    "TestNG.LoginDemoTestNGRunner (4).executor": "Run",
+    "TestNG.LoginDemoTestNGRunner (5).executor": "Run",
     "TestNG.LoginDemoTestNGRunner.executor": "Run",
     "TestNG.LoginTestNGRunner.executor": "Run",
     "TestNG.PriprityDemo.TC2.executor": "Run",
@@ -94,7 +97,7 @@
     "TestNG.TestNGRunner.executor": "Run",
     "TestNG.TestNGRunner1.executor": "Run",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/java/WebAutomation/SeleniumProjects/Cucumber_based/End2End_Automation_Cucumber/src/test",
+    "last_opened_file_path": "E:/java/WebAutomation/SeleniumProjects/Cucumber_based/End2End_Automation_Cucumber/src/test/java/features",
     "onboarding.tips.debug.path": "E:/java/WebAutomation/SeleniumProjects/Cucumber_based/shutterfly.com/src/main/java/shutterlyV1/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -104,9 +107,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java\WebAutomation\SeleniumProjects\Cucumber_based\End2End_Automation_Cucumber\src\test\java\features" />
       <recent name="E:\java\WebAutomation\SeleniumProjects\Cucumber_based\End2End_Automation_Cucumber\src\test" />
       <recent name="E:\java\WebAutomation\SeleniumProjects\Cucumber_based\End2End_Automation_Cucumber\src\test\java" />
-      <recent name="E:\java\WebAutomation\SeleniumProjects\Cucumber_based\End2End_Automation_Cucumber\src\test\java\features" />
       <recent name="E:\java\WebAutomation\SeleniumProjects\Cucumber_based\End2End_Automation_Cucumber\src\test\java\CucumberOptions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -119,16 +122,71 @@
       <recent name="pageObjects" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginDemoTestNGRunner">
-    <configuration name="DemoClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaConcepts.DemoClass" />
+  <component name="RunManager" selected="TestNG.LoginDemoTestNGRunner (5)">
+    <configuration name="LoginDemoTestNGRunner (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shutterlyV1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaConcepts.*" />
+          <option name="PATTERN" value="CucumberOptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="CucumberOptions" />
+      <option name="MAIN_CLASS_NAME" value="CucumberOptions.LoginDemoTestNGRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginDemoTestNGRunner (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shutterlyV1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CucumberOptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CucumberOptions" />
+      <option name="MAIN_CLASS_NAME" value="CucumberOptions.LoginDemoTestNGRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginDemoTestNGRunner (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shutterlyV1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CucumberOptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CucumberOptions" />
+      <option name="MAIN_CLASS_NAME" value="CucumberOptions.LoginDemoTestNGRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginDemoTestNGRunner (5)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shutterlyV1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CucumberOptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CucumberOptions" />
+      <option name="MAIN_CLASS_NAME" value="CucumberOptions.LoginDemoTestNGRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,72 +208,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestAssuredAPITest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shutterlyV1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestNGDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestNGDemo" />
-      <option name="MAIN_CLASS_NAME" value="TestNGDemo.RestAssuredAPITest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RestAssuredAPITest.testGETRequest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shutterlyV1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestNGDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestNGDemo" />
-      <option name="MAIN_CLASS_NAME" value="TestNGDemo.RestAssuredAPITest" />
-      <option name="METHOD_NAME" value="testGETRequest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNGRunner1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shutterlyV1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CucumberOptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CucumberOptions" />
-      <option name="MAIN_CLASS_NAME" value="CucumberOptions.TestNGRunner1" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.DemoClass" />
       <item itemvalue="TestNG.LoginDemoTestNGRunner" />
-      <item itemvalue="TestNG.TestNGRunner1" />
-      <item itemvalue="TestNG.RestAssuredAPITest" />
-      <item itemvalue="TestNG.RestAssuredAPITest.testGETRequest" />
+      <item itemvalue="TestNG.LoginDemoTestNGRunner (2)" />
+      <item itemvalue="TestNG.LoginDemoTestNGRunner (3)" />
+      <item itemvalue="TestNG.LoginDemoTestNGRunner (4)" />
+      <item itemvalue="TestNG.LoginDemoTestNGRunner (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginDemoTestNGRunner (5)" />
+        <item itemvalue="TestNG.LoginDemoTestNGRunner (4)" />
+        <item itemvalue="TestNG.LoginDemoTestNGRunner (3)" />
         <item itemvalue="TestNG.LoginDemoTestNGRunner" />
-        <item itemvalue="Application.DemoClass" />
-        <item itemvalue="TestNG.TestNGRunner1" />
-        <item itemvalue="TestNG.RestAssuredAPITest" />
-        <item itemvalue="TestNG.RestAssuredAPITest.testGETRequest" />
+        <item itemvalue="TestNG.LoginDemoTestNGRunner (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738810005451</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Cucumber learning">
+      <option name="closed" value="true" />
+      <created>1742524079077</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1742524079077</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -318,7 +332,8 @@
     <MESSAGE value="Test Ng" />
     <MESSAGE value="DatePicker" />
     <MESSAGE value="Excel Reader" />
-    <option name="LAST_COMMIT_MESSAGE" value="Excel Reader" />
+    <MESSAGE value="Cucumber learning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cucumber learning" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

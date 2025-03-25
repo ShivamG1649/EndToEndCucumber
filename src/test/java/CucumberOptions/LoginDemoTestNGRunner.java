@@ -5,7 +5,8 @@ import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.DataProvider;
 
 @CucumberOptions(features = "src/test/java/features/logindemo.feature",
-glue ="stepDefinitions",monochrome = true )
+glue ="stepDefinitions",
+        monochrome = true ,tags = "@featureLevelTag and @Regression")
 public class LoginDemoTestNGRunner extends AbstractTestNGCucumberTests {
 
     @Override
